@@ -1,0 +1,18 @@
+{
+  "name": "sum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon server/app.js"
+  },
+  "author": "PaulSanga",
+  "license": "ISC",
+  "dependencies": {
+    "google-protobuf": "^3.21.2",
+    "grpc": "^1.24.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
